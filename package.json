@@ -1,0 +1,15 @@
+{
+  "name": "toki-devamsizlik",
+  "version": "1.0.0",
+  "description": "Toki Şehit Ozan Onur İlgen Anadolu Lisesi Öğretmen Rapor Sistemi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "3fenizz_",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
