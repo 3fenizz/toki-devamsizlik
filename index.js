@@ -1,7 +1,9 @@
 const express = require('express');
 const app = express();
 
-app.listen(3000, console.log('Bağlantı kuruldu!'));
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, console.log('Bağlantı kuruldu!'));
 app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
